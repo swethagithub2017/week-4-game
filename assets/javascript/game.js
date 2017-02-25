@@ -90,7 +90,7 @@ crystalGame();
 
 function winReset(){
 
-  gameWpn = Math.floor(Math.random() * 120) + 19;
+  gameWin = Math.floor(Math.random() * 120) + 19;
 
   
   $("#randomNumber").html(gameWin);
