@@ -1,0 +1,101 @@
+body {
+	
+	
+	background-image: url('../images/congruent_pentagon.png');
+	font-family: 'arial''Arial', 'Helvetica Neue', Helvetica, sans-serif box-sizing: border-box;
+	font-color: #777777;
+	}
+
+	
+h1 {
+	text-align: center;
+	font-size: 40px;
+	padding: 20px; 
+}
+.scorebox {
+
+	border-style: solid ;
+	float: left;
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	height: 144px;
+	width: 240px;
+	padding: 10px;
+	margin: 10px;
+}
+.result {
+    text-align: center;
+	
+	border-style: solid  ;
+	background-color: blue;
+	color: yellow;
+	font-size: 20px;
+	height: 144px;
+	width: 240px;
+	padding: 10px;
+	margin: 10px;
+}
+.crystalbox {
+	text-align: center;
+	float:right;
+	border-style: solid black;
+	background-color: teal;
+	color: white;
+	font-size: 20px;
+	height: 244px;
+	width: 480px;
+	padding: 10px;
+	margin: 10px;
+	
+}
+.images {
+	border-style: solid black;
+	background-color: purple;
+
+	height: 144px;
+	width: 440px;
+	padding: 10px;
+	margin: 10px;
+}
+#randomNumber {
+	background-color: yellow;
+	color: black;
+	font-size: 10px;
+	height: 124px;
+	font-size: 20px;
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+}
+p {
+	margin-top: 10px;
+}
+.container {
+	float : left;
+	font-size: 16px;
+	font-family: sans-serif;
+	width: 400px;
+	height: 400px;
+	background-color: orange;
+	border-style: solid black;
+	color: black;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	font-size: 35px;
+
+}
+
+section {
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	margin-left:20px; 
+	margin-top: 10px;
+
+}
