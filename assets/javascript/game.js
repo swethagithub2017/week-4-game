@@ -1,8 +1,8 @@
 
-var gameWon = Math.floor(Math.random() * 120) + 19;
+var gameWin = Math.floor(Math.random() * 120) + 19;
 
 
-$("#randomNumber").html(gameWon);
+$("#randomNumber").html(gameWin);
 
 var red =  Math.floor(Math.random() * 19) + 1;
 var blue = Math.floor(Math.random() * 19) + 1;
@@ -25,10 +25,10 @@ function crystalGame() {
     $(".result").html(total);
     console.log(total);
 
-    if(gameWon < total) {
+    if(gameWin < total) {
      lossReset();
 
-    }if(gameWon === total){
+    }if(gameWin === total){
      winReset();
     
     };
@@ -42,10 +42,10 @@ function crystalGame() {
     $(".result").html(total);
     console.log(total);
 
-    if(gameWon < total) {
+    if(gameWin < total) {
      lossReset();
 
-    }if(gameWon === total){
+    }if(gameWin === total){
      winReset();
     
     };
@@ -58,10 +58,10 @@ function crystalGame() {
     $(".result").html(total);
     console.log(total);
 
-    if(gameWon < total) {
+    if(gameWin < total) {
      lossReset();
 
-    }if(gameWon === total){
+    }if(gameWin === total){
      winReset();
     
     };
@@ -93,7 +93,7 @@ function winReset(){
   gameWpn = Math.floor(Math.random() * 120) + 19;
 
   
-  $("#randomNumber").html(gameWon);
+  $("#randomNumber").html(gameWin);
 
   
 
@@ -113,10 +113,10 @@ function winReset(){
 };
 
 function lossReset(){
-  gameWpn = Math.floor(Math.random() * 120) + 19;
+  gameWin = Math.floor(Math.random() * 120) + 19;
 
  
-  $("#randomNumber").html(gameWon);
+  $("#randomNumber").html(gameWin);
 
   total = 0;
 
